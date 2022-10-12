@@ -1,6 +1,4 @@
 const Discord = require('discord.js');
-// const { execute } = require('../testCommands/testCommand');
-
 /**
  *
  * @param {Discord.Client} client
