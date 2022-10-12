@@ -1,0 +1,11 @@
+{
+  "name": "djs-bot-template",
+  "version": "1.0.0",
+  "description": "Creates an outline for bot templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MicrosoftWord12",
+  "license": "ISC"
+}
