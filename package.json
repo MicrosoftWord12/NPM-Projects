@@ -4,7 +4,7 @@
   "description": "Creates an outline for bot templates",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./tests/Test.js"
   },
   "author": "MicrosoftWord12",
   "license": "ISC",
