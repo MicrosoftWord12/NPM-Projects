@@ -2,9 +2,10 @@
   "name": "djs-bot-template",
   "version": "1.0.0",
   "description": "Creates an outline for bot templates",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "node ./tests/Test.js"
+    "test": "node ./tests/Test.js",
+    "run": "node ./run.js"
   },
   "author": "MicrosoftWord12",
   "license": "ISC",
