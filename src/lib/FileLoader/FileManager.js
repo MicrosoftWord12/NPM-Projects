@@ -1,4 +1,4 @@
-export class FileManager {
+class FileManager {
     constructor() {
         this.fileLoader = this.files = [];
         this.createdFiles = [];
@@ -12,3 +12,5 @@ export class FileManager {
         return this.createdFiles;
     }
 }
+
+module.exports = FileManager;

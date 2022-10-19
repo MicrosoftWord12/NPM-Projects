@@ -1,14 +1,8 @@
 "use strict";
 const fs = require("fs");
 const { DirectoryTree } = require("./DirectoryTree");
-export class DirectoryManager {
-    /**
-     *
-     * @param {string} outDir
-     *
-     */
-    constructor(outDir) {
-        this.outDir = outDir;
+module.exports = class DirectoryManager {
+    constructor() {
         this.directoryTree = DirectoryTree;
     }
 
@@ -29,4 +23,4 @@ export class DirectoryManager {
             fs.mkdir(`../out/src${this.getDirectoryTree()[i]}`);
         }
     }
-}
+};
